@@ -1,0 +1,63 @@
+name: meettime
+description: Appointment management system.
+publish_to: 'none'
+version: 1.0.0+101
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  flutter_charts: ^0.4.0
+  hexcolor: ^2.0.0
+  http: ^0.13.4
+  flutter_secure_storage: ^3.3.3
+  loader_overlay: ^2.1.0
+  dropdown_button2: ^1.9.2
+  drop_down_list: ^0.0.4
+  awesome_dropdown: ^0.0.4
+  barcode: ^2.2.3
+  syncfusion_flutter_barcodes: ^20.4.50
+  flutter_barcode_scanner: ^2.0.0
+  flutter_launcher_icons: ^0.11.0
+  animate_do: ^3.0.2
+  lottie: ^2.2.0
+  shimmer: ^2.0.0
+  image_picker: ^0.8.6+3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/imgs/icon.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/imgs/icon.png
+    - assets/imgs/logo.png
+    - assets/imgs/splash.jpeg
+    - assets/imgs/splash.gif 
+    - assets/imgs/done.png
+    - assets/imgs/appointment.png
+    - assets/imgs/not_found.png
+    - assets/imgs/recept_dashboard.jpg
+    - assets/imgs/recept_booking.jpg
+    - assets/lottie/done.json
+    - assets/lottie/vaccine.json
+    
+
+  fonts:
+    - family: MainluxLight
+      fonts:
+        - asset: fonts/MainluxLight.otf
+          weight: 700
